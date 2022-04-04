@@ -1,7 +1,7 @@
 #include <reg52.h>   
 
-sbit beep=P2^0;
-sbit sounder = P3^7;	
+sbit beep=P2^0;//有源蜂鸣器
+sbit sounder = P3^7;//无源蜂鸣器	
 //延时函数
 void Delay_10us(unsigned int time)
 {
